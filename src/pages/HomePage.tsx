@@ -1,11 +1,10 @@
-import React from 'react'
-import Seperator from '../components/Seperator/Seperator'
+import React, { lazy } from 'react'
 import AccordionCompound from '../compounds/AccordionCompound'
 import HeaderCompound from '../compounds/HeaderCompound'
+import FooterCompound from '../compounds/FooterCompound'
 import JumboCompound from '../compounds/JumboCompound'
 import OptFormCompound from '../compounds/OptFormCompound'
-import FooterCompound from '../compounds/FooterCompound'
-
+const Seperator = lazy(()=>import("../components/Seperator/Seperator"))
 /*---> Component <---*/
 const HomePage = () => {
   return (

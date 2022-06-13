@@ -7,7 +7,7 @@ import JumboSubTitle from '../components/Jumbotron/JumboSubTitle'
 import JumboImageWrapper from '../components/Jumbotron/JumboImageWrapper'
 import JumboImage from '../components/Jumbotron/JumboImage'
 import JumboData from '../data/jumbo.json'
-import Seperator from '../components/Seperator/Seperator'
+// import Seperator from '../components/Seperator/Seperator'
 
 /*---> Component <---*/
 const JumboCompound = () => {
@@ -25,7 +25,6 @@ const JumboCompound = () => {
                 <JumboImage src={item.image} alt={item.alt} />
               </JumboImageWrapper>
             </JumboItem>
-            <Seperator />
           </div>
         ))}
       </JumboWrapper>
